@@ -1,0 +1,52 @@
+/* index.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cache-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-add-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-add-item input,
+.form-add-item button {
+    padding: 10px;
+    margin: 5px 0;
+    width: calc(100% - 22px); /* Adjust for padding and border */
+}
+
+.form-add-item button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-add-item button:hover {
+    background-color: #4cae4c;
+}

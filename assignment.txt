@@ -1,0 +1,22 @@
+Apica Full stack Engineer Assignment GOALS
+1. Develop a LRU cache with GET / SET / DELETE API.
+2. Build a React application that consumes the LRU cache API’s.
+REQUIREMENTS:
+1. DevelopaLRUCache
+The cache will store Key / Value with expiration. If the expiration for key is set to 5 seconds, then that key should be evicted automatically from the cache after 5 seconds.
+Must Haves:
+• Backend should be built on Golang.
+• The GET / SET / DELETE method in cache should be exposed as API endpoints.
+• Cache should be concurrent in nature.
+• Use ADT data structures wherever possible.
+2. DevelopaReactApplication
+• That consumes Get API to get the key from cache.
+• That consumes Set API to add new key/value pairs with customizable expiration times.
+Good to have:
+- Create a WebSocket which will reflect all the current key values pairs with their expiration time dynamically in the UI.
+ADDITIONAL NOTES:
+- The code should be shared as a GitHub repository, with an attached README.md file with setup instructions and any additional information. (MUST)
+- Please attach resume with the assignment in the email thread.
+- The focus is on code quality, functionality, and adherence to the requirements.
+- Consider edge cases, error handling, and providing a clean user interface.
+- Follow best practices.
